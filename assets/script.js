@@ -119,7 +119,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://i.ibb.co/5j27L4Q/photo-40-2024-04-10-00-21-09.jpg",
         "https://i.ibb.co/S60212N/photo-41-2024-04-10-00-21-09.jpg",
         "https://i.ibb.co/dtKf3rT/photo-42-2024-04-10-00-21-09.jpg",
-        "https://i.ibb.co/k1Bcmtk/photo-43-2024-04-10-00-21-09.jpg",
         "https://i.ibb.co/LhmNCxC/photo-44-2024-04-10-00-21-09.jpg",
         "https://i.ibb.co/sRVtrmt/photo-45-2024-04-10-00-21-09.jpg",
         "https://i.ibb.co/FB2gL8z/photo-46-2024-04-10-00-21-09.jpg",
