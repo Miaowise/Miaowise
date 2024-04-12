@@ -6,7 +6,7 @@
 header {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5); 
-    border-radius: 8px; 
+    border-radius: 0px 0px 8px 8px; 
 }
 
 body {
@@ -292,11 +292,16 @@ button:disabled {
 }
 
 footer {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    width: 40%;
-    margin: 0px auto;
+    width: 100%; /* make it full width */
+    margin: 0 auto;
     border-radius: 8px 8px 0px 0px;
+    position: relative; /* Fixed at the bottom */
+    bottom: 0; /* At the bottom */
+    left: 0; /* Align to the left */
+    box-sizing: border-box; /* Include padding and border in the width */
+    z-index: 10; /* Make sure it stacks on top of other content */
 }
 
 @media screen and (max-width: 768px) {
@@ -392,21 +397,20 @@ footer {
         margin-bottom: 1em; /* Add spacing between buttons */
     }
 
-    footer {
-        background-color: rgba(255, 255, 255, 0.75);
-        text-align: center;
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 8px 8px 0px 0px;
-        padding: 1em 0; /* Add padding to create space */
-        position: relative; /* Position relative for absolute positioning */
-        bottom: 0px; /* Position the footer at the bottom of the viewport */
-        box-sizing: border-box; 
-    }
+.footer-content {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+    display: block; /* Afficher le footer lorsque la classe active est ajoutée */
+}
+
 
     /* Add a wrapper around the main content */
     .content-wrapper {
-        flex: 1; /* Grow and take up remaining space */
         overflow-y: auto; /* Add scrollbars when content overflows */
     }
 }
