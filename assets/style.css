@@ -400,7 +400,8 @@ footer {
         border-radius: 8px 8px 0px 0px;
         padding: 1em 0; /* Add padding to create space */
         position: absolute; /* Position relative for absolute positioning */
-        bottom: 1rem; /* Position the footer at the bottom of the viewport */
+        bottom: 0px; /* Position the footer at the bottom of the viewport */
+        box-sizing: border-box; 
     }
 
     /* Add a wrapper around the main content */
