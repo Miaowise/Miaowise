@@ -204,7 +204,7 @@ li.active {
     justify-content: space-around;
     align-content: center;
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
 }
 
 .intro-text{
@@ -399,7 +399,7 @@ footer {
 
 .footer-content {
     display: inline-block;
-    margin: 0 auto;
+    margin: -10px auto;
 }
 
 .fade-in.active {
