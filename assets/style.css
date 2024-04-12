@@ -304,6 +304,11 @@ footer {
     z-index: 10; /* Make sure it stacks on top of other content */
 }
 
+.copyright{
+    margin: 10px auto 0px auto;
+    padding: 10px;
+}
+
 @media screen and (max-width: 768px) {
     body {
         background-attachment: fixed; /* Ensure the background image stays fixed on mobile */
